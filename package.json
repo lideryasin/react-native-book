@@ -1,0 +1,33 @@
+{
+  "name": "Book",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android-bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+  },
+  "dependencies": {
+    "firebase": "^4.13.1",
+    "native-base": "^2.4.3",
+    "react": "16.3.1",
+    "react-native": "0.55.3",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-material-design-searchbar": "^1.8.0",
+    "react-native-swipeout": "^2.3.3",
+    "react-native-tabbar-bottom": "^1.0.4",
+    "react-native-textinput-effects": "^0.4.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.11"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
